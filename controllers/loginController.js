@@ -1,5 +1,5 @@
 const ADMIN_USER = 'X';
-const ADMIN_PASS = 'VN5EK99e6c8mzPj9';
+const ADMIN_PASS = '5eLmXxC7sS5f9C7';
 
 exports.renderLoginPage = (req, res) => {
     res.render('login', { error: null });
