@@ -14,7 +14,7 @@ const app = express();  // <-- Сначала создаём app
 connectDB();
 
 app.use(session({
-    secret: '4na5Mh686MFppytHT9PsU4A5', // Поменяй на сложный ключ
+    secret: 'g3R0Bx0HhKTdtIOz', // Поменяй на сложный ключ
     resave: false,
     saveUninitialized: false,
     cookie: { secure: false } // поставь false, если не HTTPS, иначе сессии не будут работать по HTTP
